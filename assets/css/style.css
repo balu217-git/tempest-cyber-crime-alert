@@ -130,9 +130,56 @@ h6 {
     max-width: 200px;
 }
 
+.info-slider-card{
+    border: 1px solid #e31e24;
+    padding: 30px;
+    min-height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info-nav-slider{
+    margin-right: 10px;
+}
 
+.slick-nav .testmonial-left-arrow{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #E31E24;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.slick-nav .testmonial-right-arrow{
+    position: absolute;
+    right: 6px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #E31E24;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+}
 
-
+.info-speaker-slider .card{
+    margin-right: 15px;
+}
 
 
 
@@ -275,4 +322,30 @@ hr {
         font-size: 14px;
         padding-top: 0;
     }
+}
+
+/* SLICK CSS */
+.slick-dots{
+  display: block;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 20px;
+  list-style: none;
+  text-align: center !important;
+}
+.slick-dots li{
+  display: inline-block;
+  margin-right: 10px;
+}
+.slick-dots li button {
+  width: 12px;
+  height: 12px;
+  border: 0;
+  border-radius: 50rem;
+  background-color: #c9c9c9;
+  text-indent: -999999px;
+}
+.slick-dots li.slick-active button{
+  background-color:  #e31e24;
 }
