@@ -47,9 +47,16 @@ h6 {
 .hero-bg{
     background: #194C4F;
     background: linear-gradient(109deg, rgba(25, 76, 79, 1) 0%, rgba(4, 5, 9, 1) 100%);
+    display: flex;
+    align-items: end;
 }
 
-
+.alert-element{
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 200px;
+}
 
 
 
@@ -165,7 +172,13 @@ hr {
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 1399px) {
+
+}
+@media (max-width: 1199px) {
+
+}
+@media (max-width: 991px) {
     .info-contact-content::after {
         position: absolute;
         content: '';
