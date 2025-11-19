@@ -1,0 +1,49 @@
+
+:root {
+    --brand-red: #e31e24;
+    --brand-green-light: #093f42;
+    --brand-yellow: #f6cd24;
+    --brand-orange: #e8841e;
+    --brand-light: #fff4e9;
+    --brand-brown: #B76800;
+    --badge-opacity: .3;
+    --font-montserrat: ;
+    --font-playfair: ;
+}
+
+.bg-info-light{
+    background-color: #292f3a !important;
+}
+
+.info-content-element-square{
+    position: relative;
+    z-index: 1;
+}
+.info-content-element-square::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--brand-red);
+    position: absolute;
+    left: 40px;
+    top: -25px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    z-index: -1;
+}
+.info-content-element-square.verticel::before{
+    height: calc(100% + 50px);
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.info-content-wrap img{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
