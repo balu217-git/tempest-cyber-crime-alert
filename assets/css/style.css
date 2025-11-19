@@ -44,10 +44,6 @@ h6 {
     color: #888;
 }
 
-.btn-brand{
-
-}
-
 
 .navbar-bg{
     background: transparent !important;
@@ -55,6 +51,15 @@ h6 {
 .hero-bg{
     background: #194C4F;
     background: linear-gradient(109deg, rgba(25, 76, 79, 1) 0%, rgba(4, 5, 9, 1) 100%);
+    display: flex;
+    align-items: end;
+}
+.hero-wrapper-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn{
@@ -116,9 +121,7 @@ h6 {
     -o-border-radius: 50rem;
     line-height: 50px;
 }
-    display: flex;
-    align-items: end;
-}
+
 
 .alert-element{
     position: absolute;
@@ -259,6 +262,9 @@ hr {
         left: 0;
         right: 0;
         margin: auto;
+    }
+    .alert-element{
+        position: initial !important;
     }
 }
 @media (max-width: 767px) {
