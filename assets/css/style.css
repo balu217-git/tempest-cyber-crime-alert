@@ -1,0 +1,28 @@
+:root {
+    --brand-red: #e63b27;
+    --brand-green-light: #093f42;
+    --brand-yellow: #f6cd24;
+    --brand-orange: #e8841e;
+    --brand-light: #fff4e9;
+    --brand-brown: #B76800;
+    --badge-opacity: .3;
+    --font-montserrat: ;
+    --font-playfair: ;
+}
+
+body {
+    font-family: var(--font-montserrat), sans-serif;
+    color: var(--brand-green);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-playfair), serif;
+}
+.font-family-body{
+    font-family: var(--font-montserrat), sans-serif;
+}
