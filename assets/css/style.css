@@ -11,7 +11,7 @@ body {
 }
 
 :root {
-    --brand-red: #e63b27;
+    --brand-red: #e31e24;
     --brand-green-light: #093f42;
     --brand-yellow: #f6cd24;
     --brand-orange: #e8841e;
@@ -33,11 +33,15 @@ h6 {
 .font-family-body{
     font-family: var(--font-montserrat), sans-serif;
 }
-.text-brand-dark{
-    color: #e63b27;
+.text-brand-red{
+    color: var(--brand-red);
 }
 .text-brand-light{
     color: #888;
+}
+
+.btn-brand{
+
 }
 
 
@@ -49,12 +53,49 @@ h6 {
     background: linear-gradient(109deg, rgba(25, 76, 79, 1) 0%, rgba(4, 5, 9, 1) 100%);
 }
 
+.btn{
+    font-weight: 500;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    letter-spacing: 1px;
+}
+.btn-wide{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.btn-brand {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: var(--brand-red);
+    --bs-btn-border-color: var(--brand-red);
+    --bs-btn-hover-color: var(--brand-red);
+    --bs-btn-hover-bg: #fff;
+    --bs-btn-hover-border-color: #fff;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: var(--brand-red);
+    --bs-btn-active-bg: var(--brand-red);
+    --bs-btn-active-border-color: var(--brand-red);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: var(--brand-red);
+    --bs-btn-disabled-border-color: var(--brand-red);
+}
 
 
 
-
-
-
+.img-wrap-circle{
+    max-width: 300px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50rem;
+    -webkit-border-radius: 50rem;
+    -moz-border-radius: 50rem;
+    -ms-border-radius: 50rem;
+    -o-border-radius: 50rem;
+    background-color: #888;
+}
 
 
 
