@@ -28,3 +28,13 @@
         }
     ]
   });
+
+$(window).on("scroll", function() {
+  var e = $(window).scrollTop();
+
+  if (e > 0) {
+      $("#mainHeader").addClass("bg");
+  } else {
+      $("#mainHeader").removeClass("bg");
+  }
+});
