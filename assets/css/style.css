@@ -395,6 +395,10 @@ hr {
         font-size: 14px;
         padding-top: 0;
     }
+    .info-content-element-square::before{
+        left: 0 !important;
+        top: 0 !important;
+    }
 }
 
 /* SLICK CSS */
