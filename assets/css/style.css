@@ -48,6 +48,9 @@ h6 {
 .navbar-bg{
     background: transparent !important;
 }
+.bg-brand-dark{
+    background: #121618 !important;
+}
 .hero-bg{
     background: #194C4F;
     background: linear-gradient(109deg, rgba(25, 76, 79, 1) 0%, rgba(4, 5, 9, 1) 100%);
@@ -208,9 +211,55 @@ h6 {
     margin-bottom: 10px;
 }
 
+.info-code-bg{
+    background: url('../img/nav-slider-bg.webp');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info-overlay{
+    position: relative;
+}
+.info-overlay::before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #2a3032f2;
+    left: 0;
+    top: 0;
+}
+.info-dark-overlay{
+    position: relative;
+}
+.info-dark-overlay::before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    /* background: linear-gradient(180deg, #06070B 0%, #04080A 100%); */
+    background: #04080aeb;
+    left: 0;
+    top: 0;
+}
 
+.info-play-btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 50px;
+    cursor: pointer;
+}
 
-
+.hacker-bg-blue{
+    background: url('../img/hacker-bg-blue.webp');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
