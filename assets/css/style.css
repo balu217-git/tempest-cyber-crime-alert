@@ -181,8 +181,32 @@ h6 {
     margin-right: 15px;
 }
 
+.info-cyber-safety-bg{
+    background: url('../img/cyber-safety-bg.webp');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-
+.info-icon-left li{
+    position: relative;
+    padding-left: 30px;
+}
+.info-icon-left li::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 3px;
+    background: url('../img/list-icon.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 18px;
+    width: 18px;
+}
+.info-icon-left li:not(:last-child){
+    margin-bottom: 10px;
+}
 
 
 
