@@ -658,6 +658,9 @@ hr {
         left: 0 !important;
         top: 0 !important;
     }
+    .info-cyber-safety-bg{
+        background-position: 10% center;
+    }
 }
 
 /* SLICK CSS */
