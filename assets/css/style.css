@@ -203,6 +203,7 @@ h6 {
     background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .info-icon-left li{
@@ -230,7 +231,7 @@ h6 {
     background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 .info-overlay{
     position: relative;
@@ -252,8 +253,8 @@ h6 {
     content: '';
     height: 100%;
     width: 100%;
-    /* background: linear-gradient(180deg, #06070B 0%, #04080A 100%); */
-    background: #04080aeb;
+    /* background: #04080aeb; */
+    background: #04080ad9;
     left: 0;
     top: 0;
 }
@@ -274,6 +275,7 @@ h6 {
     background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -311,16 +313,45 @@ h6 {
 .lightbox-container, .lightbox-btn, .lightbox-image-wrapper, .lightbox-enabled{
     transition:all .4s ease-in-out;
 }
-.lightbox_img_wrap {
+.lightbox_img_wrap, .showmore-btn {
     padding-top: 100%;
     position:relative;
     overflow:hidden;
     cursor:pointer;
 }
+.showmore-btn::before{
+    position: absolute;
+    content: 'Show More';
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(25, 76, 79, 1) 0%, rgba(4, 5, 9, 1) 100%);
+    opacity: 0.8;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    z-index: 1;
+}
+.showlessbtn{
+    background: linear-gradient(109deg, rgba(25, 76, 79, 1) 0%, rgba(4, 5, 9, 1) 100%);
+    border: 1px solid #093f42;
+}
 .lightbox-enabled:hover {
     transform:scale(1.1)
 }
 .lightbox-enabled {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    object-fit:cover;
+    cursor:pointer;
+}
+.show-more-box {
     width:100%;
     height:100%;
     position:absolute;
@@ -487,6 +518,12 @@ h6 {
     top: 0;
 } */
 /* LightsBox CSS End Here */
+
+
+.hidden-gallery-item {
+    display: none;
+}
+
 
 
 
