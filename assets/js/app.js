@@ -290,7 +290,7 @@ function onYouTubeIframeAPIReady() {
   // Initialize first video
   players.push(
     new YT.Player("youtube-player-1", {
-      videoId: "",
+      videoId: "5t8ZVRx6W6w",
       playerVars: {
         autoplay: 0,
         rel: 0,
